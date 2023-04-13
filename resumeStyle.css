@@ -1,0 +1,46 @@
+@charset "UTF-8";
+/*
+Author: Niki Xiaoning Zheng
+Date:2/16/2023
+Description: CSS file
+*/
+.item1 { grid-area: header; text-align: center; }
+.item2 { grid-area: contact; left: 30px;top: 20px;}
+.item3 { grid-area: skills; }
+.item4 { grid-area: education; }
+.item5 { grid-area: profile; }
+.item6 { grid-area: experience; }
+
+.grid-container {
+    position: relative;
+    display: grid;
+    grid-template-areas:
+      'header header header'
+      'contact profile profile'
+      'skills experience experience'
+      'education experience experience';
+    gap: 2px;
+    background-color: #EEEEEE;
+    padding: 0px;
+    font-family: 'Raleway';
+    width:80%;
+    margin: 5%;
+  }
+  
+  .grid-container > div {
+    background-color:white;
+
+    padding: 80px 0;
+    padding-left: 10px;
+    color: #666666;  
+  
+  }
+  
+  .grid-container > div h2{
+      text-transform:uppercase;
+  }
+  
+  .grid-container  p{
+      font-size: 1em;
+      font-weight: lighter;
+  }

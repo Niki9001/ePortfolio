@@ -1,0 +1,12 @@
+@charset "utf-8";
+/*
+Author: Niki Xiaoning Zheng
+Date:2/2/2023
+Description: CSS file
+*/
+body{
+    background-color: lightgray;
+    color:yellow;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+
+}

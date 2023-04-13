@@ -1,0 +1,68 @@
+@charset "UTF-8";
+/*
+Author: Niki Xiaoning Zheng
+Date:3/09/2023
+Description: CSS file
+*/
+@media only screen and (max-width:767px)
+{
+    .grid-container{
+        background-color:aliceblue;
+        padding: 20px;
+    }
+    ul#hNav{
+        display: none;
+        
+    }
+    #burgerMenu{
+        width: 20px;
+        flex-grow: 1;
+        flex-basis: 0;
+        padding: 10px;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+    }
+    
+    #bMenuToggle{
+        display:none;
+    }
+    #bMenuToggle:checked ~ ul#hNav{
+        display: block;
+    }
+    
+
+}
+
+@media only screen and (max-width:768px){
+    ul#hNav>li>a{
+
+    }
+    ul#hNav>li{
+        float: left;
+        width: 20%;
+        background-color: rgba(255,0,0,0.5);
+    }
+    ul#hNav{
+        display:none;
+        list-style-type: none;
+        width: 100%;
+        overflow: hidden;
+    }
+    #burgerMenu{
+        width: 20px;
+        flex-grow: 1;
+        flex-basis: 0;
+        padding: 10px;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+    }
+    
+    #bMenuToggle{
+        display:none;
+    }
+    #bMenuToggle:checked ~ ul#hNav{
+        display: block;
+    }
+}
