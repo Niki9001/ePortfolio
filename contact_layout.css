@@ -2,3 +2,140 @@ body {
 	font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	background:#ffffff;
 }
+html, body{
+    margin: 0;
+    padding: 0;
+}
+.wrap {
+	width: 70%;
+	margin: 0px auto;
+}
+.header{
+	padding:5% 0%;
+	margin-bottom: 1%;
+}
+.banner {
+    position: relative;
+    width: 100%;
+    max-height: 500px;
+    overflow: hidden;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    max-height: 500px;
+}
+
+.menu-container {
+    position: absolute;
+    top: 5%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    margin: 0 10px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #5f5e5e;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.text-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column; /* 使文本在垂直方向上排列 */
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* 使文本居中对齐 */
+    color: rgb(43, 40, 40); /* 设置文本颜色 */
+}
+.text-container h1 {
+    font-size: 64px; 
+}
+
+.text-container h2 {
+    font-size: 36px; 
+}
+
+.wrap h3 {
+    text-align: center;
+    margin-top: 40px; 
+    font-size: 48px;
+}
+
+.wrap p {
+    text-align: center;
+    margin-top: 20px; 
+    font-size: 36px;
+}
+
+/* 为外部容器添加样式 */
+/* 为外部容器添加样式 */
+.combo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; /* 所有子元素在垂直方向上居中对齐 */
+    flex-wrap: wrap;
+    
+  }
+  
+  /* 为每个联系方式添加样式 */
+  .LinkedIn,
+  .Phone,
+  .Email {
+    flex: 1;
+    margin: 10px;
+    text-align: center;
+    
+  }
+  
+  /* 为每个联系方式的图片添加样式 */
+  .LinkedIn img,
+  .Phone img,
+  .Email img {
+    width: 50px;
+    height: 50px;
+  }
+  .combo h4 {
+    color: yellow;
+  }
+  .combo p {
+    color: rgb(54, 54, 2);
+  }
+  @media (max-width: 480px) {
+    .wrap {
+      width: 100%;
+    }
+  }
+  
+  
+
+
+  
+
+
+
+
