@@ -1,72 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Resume</title>
-        <link rel="stylesheet" href="protfolio_base.css">
+        <title>Contact</title>
         <link rel="stylesheet" href="resumeStyle.css">
-        <link rel="stylesheet" href="protfolio_layout.css">
         <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
-
     </head>
-    <body >
-
-        <h1 style="text-align: center">Resume</h1>
-        <div class="menu-container">
-            <ul class="menu">        
-                <li><a href="index.html">Home</a></li>
-                <li><a href="goals.html">Goals</a></li>
-                <li><a href="skill.html">Skills</a></li>
-                <li><a href="resume.html">Resume</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </div>
-        <section>
-            <div class="timeline-small">
-                <div class="header">
-                    <div class="color-overlay">
-                        <div class="header-name">Timeline</div>
-                        <div class="header-sub">Work Experience</div>
-                    </div>
-                </div>
-                <div class="timeline-small-body">
-                    <ul>
-                        <li>
-                            <div class="bullet pink"></div>
-                            <div class="date">Jun 2015 to Jan 2017</div>
-                            <div class="desc">
-                                <h3>On-site Network Support Engineer</h3>
-                                <h4>OmniPrime Marketing, Inc.</h4>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="bullet orange"></div>
-                            <div class="date">Jan 2014 to May 2015</div>
-                            <div class="desc">
-                                <h3>IT Support / Web Designer &amp; Developer</h3>
-                                <h4>IT.Resources Corporation (ITRC)</h4>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="bullet blue"></div>
-                            <div class="date">Nov 2012 to Oct 2014</div>
-                            <div class="desc">
-                                <h3>OJT Graphic Artist / IT Support</h3>
-                                <h4>Lima Gulf Industrial Trading</h4>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="bullet green"></div>
-                            <div class="date">Oct 2006 to Present</div>
-                            <div class="desc">
-                                <h3>Art Direction, Graphic Design, Web Development</h3>
-                                <h4>Independent / Freelance</h4>
-                            </div>
-                        </li>
+<body>
+    <div id='timeDiv'>
+        <header>
+            <div class="banner">
+                <img src="RBanner.jpg" alt="Banner Image"/>
+                <div class="menu-container">
+                    <ul class="menu">        
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="goals.html">Goals</a></li>
+                        <li><a href="skill.html">Skills</a></li>
+                        <li><a href="resume.html">Resume</a></li>
+                        <li><a href="contact.html">Contact</a></li>
                     </ul>
                 </div>
+                <div class="text-container">
+                    <h1>Resume</h1>
+                    <h2>Work Experience</h2>
+                </div>
+        </header>
+        <ul id='timeline'>
+          <li class='work'>
+            <input class='radio' id='work1' name='works' type='radio' checked>
+            <div class="relative">
+              <label for='work1'>Chief Product Manager (Partial remote)</label>
+              <span class='date'>1</span>
+              <span class='circle'></span>
             </div>
-
-        
-        <a href="index.html">Back to Homepage</a>      
-    </body>
+            <div class='content'>
+              <h4>Shenzhen Medlens Technology Co., Ltd | Feb 2018 - Oct 2020</h4>
+              
+              <p>
+                At the start of my job, I undertook project management and preparation tasks, 
+                including creating and managing databases, as well as handling migration processes. 
+              </p>
+              <p>
+                Once the company was established, I focused on data loading, querying, and cleaning. 
+                I utilized a range of tools such as Pandas, Numpy, Matplotlib, and Echarts for data 
+                visualization and analysis.
+              </p>
+              <p>
+                Throughout my tenure, I concentrated on information technology within the financial 
+                industry, utilizing daily data analysis to identify areas of growth and weakness. 
+              </p>
+              <p>
+                Additionally, I conducted user research to analyze the strengths and weaknesses of 
+                our products, including studying competitors' offerings, mapping their products using 
+                BPMN, and performing product analysis. 
+              </p>
+              <p>
+                I also collected and analyzed data on the application of machine learning in insurance and researched the future development trends of the insurance industry.
+              </p>
+              <p>  
+                The most important thing is that in this job, although we encountered many problems, we managed to solve them through the efforts of our team. On those days when we worked late into the night, we gained not only work experience, but also the courage to overcome difficulties together!
+              </p>
+            </div>
+          </li>
+          <li class='work'>
+            <input class='radio' id='work2' name='works' type='radio'>
+            <div class="relative">
+              <label for='work2'>
+                Senior Director of Operations</label>
+              <span class='date'>2</span>
+              <span class='circle'></span>
+            </div>
+            <div class='content'>
+              <h4>Shenzhen Yuebao Technology Co., Ltd | Jan 2017 - Feb 2018</h4>
+            
+              <p>This role is similar to that of a Product Manager in Canada. As part of my responsibilities, I tracked and analyzed competitive brands and products using Xmind for mind mapping and Axure for product prototyping. I identified the strengths and weaknesses of competing products and provided recommendations for product optimization. I also gathered user feedback to evaluate our own product's strengths and weaknesses, assess user experience, and suggest improvements to the development process.</p>
+              <p>Using Python tools like Scrapy, Beautiful Soup (bs4), and Requests, I collected and analyzed data on property insurance industry trends using MySQL. Based on the results, I suggested feature development ideas to the development team. As a result of my extensive data analysis and research, I recommended consulting services to the company which were ultimately implemented.</p>
+              <p>The project I worked on became the largest integrated platform for quoting, underwriting, and selling auto insurance in China. This platform connects dozens of insurance companies directly to their customers, allowing them to retrieve all relevant information about a vehicle and its owner by simply entering the license plate number manually or via AI recognition. The platform also generates a list of products and quotes from multiple insurance companies, saving time and improving efficiency for insurance companies, brokers, and agents.</p>
+              <p>In addition to these hard skills, I have also gained team management skills in this job, including understanding, thinking differently, working in a team, helping others to solve problems together, etc.</p>
+            </div>
+          </li>
+          <li class='work'>
+            <input class='radio' id='work3' name='works' type='radio'>
+            <div class="relative">
+              <label for='work3'>Front Desk Clerk</label>
+              <span class='date'>3</span>
+              <span class='circle'></span>
+            </div>
+            <div class='content'>
+              <h4>McDonald's And McCafé · Permanent Part-time | 2016 - May 2016</h4>
+              <p>
+                Greeting customers and taking their orders.
+              </p>
+              <p>Making coffee and desserts.</p>
+              <p>Customer service.</p>
+            </div>
+          </li>
+          <li class='work'>
+            <input class='radio' id='work4' name='works' type='radio'>
+            <div class="relative">
+              <label for='work4'>
+                Product Specialist</label>
+              <span class='date'>4</span>
+              <span class='circle'></span>
+            </div>
+            <div class='content'>
+                <h4>Jinan SIIK technology co., Ltd | Dec 2012 - May 2015</h4>
+              <p>
+                In this job, I collected and analyzed user feedback and produced reports suggesting software updates. I also conducted regional data management and analysis for the property insurance industry to help companies enhance their competitiveness.
+              </p>
+              <p>My primary tasks included managing regional data, compiling and sending insurance expiration data to sales personnel based on expiration times, tracking insurance sales data, compiling claims records, assessing moral hazard, and creating reports for my supervisors.</p>
+              <p>Besides these hard skills, I have also acquired a lot of soft skills in this job, such as thinking differently, working on my own initiative, being self-driven and thinking in multiple ways</p>
+            </div>
+          </li>
+        </ul>
+        </div>
+</body>
 </html>
+
