@@ -1,0 +1,79 @@
+body {
+	font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background:rgb(131, 118, 94);
+}
+html, body{
+    margin: 0;
+    padding: 0;
+}
+.wrap {
+	width: 70%;
+	margin: 0px auto;
+}
+.header{
+	padding:5% 0%;
+	margin-bottom: 1%;
+}
+.banner {
+    position: relative;
+    width: 100%;
+    max-height: 500px;
+    overflow: hidden;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    max-height: 500px;
+}
+
+.menu-container {
+    position: absolute;
+    top: 5%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    z-index: 1000
+}
+
+.menu li {
+    margin: 0 10px;
+}
+
+.menu a {
+    color: wheat;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.text-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column; /* 使文本在垂直方向上排列 */
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* 使文本居中对齐 */
+    color: wheat; /* 设置文本颜色 */
+}
+.text-container h1 {
+    font-size: 124px; 
+}
+
+
