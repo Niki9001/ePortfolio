@@ -1,4 +1,9 @@
-
+@charset "utf-8";
+/*
+Author: Niki Xiaoning Zheng
+Date:2/2/2023
+Description: CSS file
+*/
 .portfolio-items {
     display: flex;
     justify-content: center;
@@ -36,7 +41,7 @@ h1 {
     margin-left: 10%;
     margin-top: 5%;  
 }
-ul {
+ul a {
     text-align: right;
     margin-right: 0%;
     margin-top: 5%; 
@@ -119,6 +124,6 @@ ul {
     #nav ul a {
         display: block;
         padding: 10px;
-        border-bottom: 1px solid #ccc; /* 可选：在菜单项之间添加边框 */
+        border-bottom: 1px solid #ccc; 
     }
 }

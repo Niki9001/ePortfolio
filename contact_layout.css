@@ -1,3 +1,10 @@
+@charset "utf-8";
+/*
+Author: Niki Xiaoning Zheng
+Date:2/2/2023
+Description: CSS file
+*/
+
 body {
 	font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	background:#ffffff;
@@ -66,11 +73,11 @@ html, body{
     right: 0;
     bottom: 0;
     display: flex;
-    flex-direction: column; /* 使文本在垂直方向上排列 */
+    flex-direction: column; /* 文本在垂直方向上排列 */
     justify-content: center;
     align-items: center;
-    text-align: center; /* 使文本居中对齐 */
-    color: rgb(43, 40, 40); /* 设置文本颜色 */
+    text-align: center; /* 文本居中对齐 */
+    color: rgb(43, 40, 40); /* 文本颜色 */
 }
 .text-container h1 {
     font-size: 64px; 
@@ -93,7 +100,7 @@ html, body{
 }
 
 /* 为外部容器添加样式 */
-/* 为外部容器添加样式 */
+
 .combo {
     display: flex;
     justify-content: space-around;
@@ -102,7 +109,7 @@ html, body{
     
   }
   
-  /* 为每个联系方式添加样式 */
+  /* 联系方式添加样式 */
   .LinkedIn,
   .Phone,
   .Email {
@@ -112,7 +119,7 @@ html, body{
     
   }
   
-  /* 为每个联系方式的图片添加样式 */
+  /* 联系方式的图片添加样式 */
   .LinkedIn img,
   .Phone img,
   .Email img {

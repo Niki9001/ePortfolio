@@ -1,3 +1,10 @@
+@charset "utf-8";
+/*
+Author: Niki Xiaoning Zheng
+Date:2/2/2023
+Description: CSS file
+*/
+
 body {
 	font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	background:rgb(151, 142, 126);
