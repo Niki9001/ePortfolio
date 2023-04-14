@@ -45,7 +45,17 @@
             var navUl = document.querySelector("#nav ul");
     
             menuToggle.addEventListener("click", function () {
-                if (navUl.style.display === "none" || !navUl.style.display) {
+                if (window.matchMedia("(max-width: 768px)").matches) {
+                    if (navUl.style.display === "none" || !navUl.style.display) {
+                        navUl.style.display = "block";
+                    } else {
+                        navUl.style.display = "none";
+                    }
+                }
+            });
+    
+            window.addEventListener("resize", function () {
+                if (!window.matchMedia("(max-width: 768px)").matches) {
                     navUl.style.display = "block";
                 } else {
                     navUl.style.display = "none";
